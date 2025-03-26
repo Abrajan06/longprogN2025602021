@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Reactivo_2"/>
+        <attribute name="authors" value="perla"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-25 10:11:10 p. m."/>
+        <attribute name="created" value="cGVybGE7UEVSTEEtSE9OT1I7MjAyNS0wMy0yNTsxMDowNjoxNyBwLiBtLjsyODA1"/>
+        <attribute name="edited" value="cGVybGE7UEVSTEEtSE9OT1I7MjAyNS0wMy0yNTsxMDoxMToxMCBwLiBtLjsyOzI5MDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <if expression="n%400=0">
+                <then>
+                    <output expression="&quot;es bisiesto&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="n%4=n%100">
+                        <then>
+                            <output expression="&quot;no es bisiesto&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;es bisiesto&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

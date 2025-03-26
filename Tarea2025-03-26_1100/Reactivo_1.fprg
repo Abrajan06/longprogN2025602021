@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Reactivo_1"/>
+        <attribute name="authors" value="perla"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-25 10:05:34 p. m."/>
+        <attribute name="created" value="cGVybGE7UEVSTEEtSE9OT1I7MjAyNS0wMy0yNTswNTozMTo1NyBwLiBtLjsyODEx"/>
+        <attribute name="edited" value="cGVybGE7UEVSTEEtSE9OT1I7MjAyNS0wMy0yNTsxMDowNTozNCBwLiBtLjsxOzI5MTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="costoD, total" type="Real" array="False" size=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="costoD" expression="10"/>
+            <if expression="n&gt;=50">
+                <then>
+                    <assign variable="costoD" expression="8.00"/>
+                </then>
+                <else>
+                    <if expression="n&gt;=30">
+                        <then>
+                            <assign variable="costoD" expression="9.00"/>
+                        </then>
+                        <else>
+                            <if expression="n&lt;30">
+                                <then>
+                                    <assign variable="costoD" expression="10.00"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <assign variable="total" expression="n*costoD"/>
+            <output expression="total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
