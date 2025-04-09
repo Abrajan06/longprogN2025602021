@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="iteracion"/>
+        <attribute name="authors" value="perla"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-04 11:31:28 a. m."/>
+        <attribute name="created" value="cGVybGE7UEVSTEEtSE9OT1I7MjAyNS0wNC0wNDsxMToyMjoyMyBhLiBtLjsyNzg0"/>
+        <attribute name="edited" value="cGVybGE7UEVSTEEtSE9OT1I7MjAyNS0wNC0wNDsxMTozMToyOCBhLiBtLjsxOzI4OTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="0"/>
+            <while expression="i&lt;100">
+                <output expression="i" newline="True"/>
+                <output expression="&quot;hola usuario&quot;" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

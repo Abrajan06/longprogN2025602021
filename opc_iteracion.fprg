@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="opc_iteracion"/>
+        <attribute name="authors" value="perla"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-04 11:45:07 a. m."/>
+        <attribute name="created" value="cGVybGE7UEVSTEEtSE9OT1I7MjAyNS0wNC0wNDsxMTozNjoxNCBhLiBtLjsyNzg5"/>
+        <attribute name="edited" value="cGVybGE7UEVSTEEtSE9OT1I7MjAyNS0wNC0wNDsxMTo0NTowNyBhLiBtLjsxOzI4OTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="opc" type="Integer" array="False" size=""/>
+            <do expression="1 == 1">
+                <output expression="&quot;hola!!&quot;" newline="True"/>
+                <output expression="&quot;&#191;otr ves? [1/0]&quot;" newline="True"/>
+                <input variable="opc"/>
+            </do>
+            <output expression="&quot;adios&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

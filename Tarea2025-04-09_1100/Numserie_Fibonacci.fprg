@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fibonacci"/>
+        <attribute name="authors" value="marco"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 11:33:28 p. m."/>
+        <attribute name="created" value="bWFyY287QllST05MRUM7MjAyNS0wNC0wODswODozMzoyMSBwLiBtLjsyNjA2"/>
+        <attribute name="edited" value="bWFyY287QllST05MRUM7MjAyNS0wNC0wODsxMDowODoxMCBwLiBtLjsyOzI3MDg="/>
+        <attribute name="edited" value="VmFsZG87REVTS1RPUC03NTJMTkROOzIwMjUtMDQtMDg7MTA6NDM6MjkgcC4gbS47MTszMTIz"/>
+        <attribute name="edited" value="cGVybGE7UEVSTEEtSE9OT1I7MjAyNS0wNC0wODsxMTozMzoyOCBwLiBtLjsxOzI5MTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Agregue un numero para determinar la longitud de la sucesion&quot;" newline="True"/>
+            <declare name="Num1, Num2, Num3" type="Integer" array="False" size=""/>
+            <declare name="Limite" type="Integer" array="False" size=""/>
+            <declare name="Fib" type="Integer" array="False" size=""/>
+            <assign variable="Num1" expression="1"/>
+            <assign variable="Num2" expression="2"/>
+            <assign variable="Num3" expression="2"/>
+            <input variable="Limite"/>
+            <for variable="Fib" start="1" end="limite" direction="inc" step="1">
+                <assign variable="Num3" expression="Num1+Num2"/>
+                <assign variable="Num1" expression="Num2"/>
+                <assign variable="Num2" expression="Num3"/>
+                <output expression="Num3" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

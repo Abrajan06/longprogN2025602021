@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="generar_una serie_3"/>
+        <attribute name="authors" value="perla"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-04 11:53:42 a. m."/>
+        <attribute name="created" value="cGVybGE7UEVSTEEtSE9OT1I7MjAyNS0wNC0wNDsxMTo0NToxMyBhLiBtLjsyNzg4"/>
+        <attribute name="edited" value="cGVybGE7UEVSTEEtSE9OT1I7MjAyNS0wNC0wNDsxMTo1Mzo0MiBhLiBtLjsxOzI4OTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="299" end="1" direction="inc" step="2">
+                <output expression="&quot;i&quot;" newline="True"/>
+                <output expression="&quot;,&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

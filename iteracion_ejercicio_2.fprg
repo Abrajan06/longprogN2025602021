@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="iteracion_ejercicio_2"/>
+        <attribute name="authors" value="perla"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-04 11:36:12 a. m."/>
+        <attribute name="created" value="cGVybGE7UEVSTEEtSE9OT1I7MjAyNS0wNC0wNDsxMTozMTozMSBhLiBtLjsyNzgz"/>
+        <attribute name="edited" value="cGVybGE7UEVSTEEtSE9OT1I7MjAyNS0wNC0wNDsxMTozNjoxMiBhLiBtLjsxOzI4OTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="99" direction="inc" step="1">
+                <output expression="i" newline="True"/>
+                <output expression="&quot;hola usuario&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

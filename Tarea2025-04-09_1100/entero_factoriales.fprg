@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="factoriales"/>
+        <attribute name="authors" value="Valdo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 09:01:18 p. m."/>
+        <attribute name="created" value="VmFsZG87REVTS1RPUC03NTJMTkROOzIwMjUtMDQtMDg7MDY6NTk6MDUgcC4gbS47MzAyMQ=="/>
+        <attribute name="edited" value="VmFsZG87REVTS1RPUC03NTJMTkROOzIwMjUtMDQtMDg7MDg6NDQ6MTEgcC4gbS47MTszMTIy"/>
+        <attribute name="edited" value="cGVybGE7UEVSTEEtSE9OT1I7MjAyNS0wNC0wODswOTowMToxOCBwLiBtLjsxOzI5MTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Agregue un numero entero&quot;" newline="True"/>
+            <declare name="Factorial, n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="n" expression="n-1"/>
+            <assign variable="Factorial" expression="n"/>
+            <do expression="n&gt;=1">
+                <assign variable="Factorial" expression="Factorial*n"/>
+                <assign variable="n" expression="n-1"/>
+                <output expression="&quot;*&quot;&amp;n" newline="True"/>
+            </do>
+            <output expression="&quot;El valor es:&quot;&amp;Factorial" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

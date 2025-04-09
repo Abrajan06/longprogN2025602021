@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="binario"/>
+        <attribute name="authors" value="perla"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 05:45:21 p. m."/>
+        <attribute name="created" value="cGVybGE7UEVSTEEtSE9OT1I7MjAyNS0wNC0wNDsxMTo1Mzo0NiBhLiBtLjsyNzkz"/>
+        <attribute name="edited" value="cGVybGE7UEVSTEEtSE9OT1I7MjAyNS0wNC0wODswNTo0NToyMSBwLiBtLjsxOzI5MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, residuo, division" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="division" expression="n/2"/>
+            <assign variable="residuo" expression="n%2"/>
+            <output expression="residuo" newline="True"/>
+            <while expression="division !=0">
+                <assign variable="division" expression="division%2"/>
+                <assign variable="division" expression="division/2"/>
+                <output expression="residuo" newline="True"/>
+            </while>
+            <output expression="division" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
